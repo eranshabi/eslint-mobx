@@ -1,0 +1,32 @@
+{
+  "name": "eslint-mobx",
+  "version": "1.0.0",
+  "description": "MobX specific linting rules for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eranshabi/eslint-mobx.git"
+  },
+  "author": "Eran Shabi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eranshabi/eslint-mobx/issues"
+  },
+  "homepage": "https://github.com/eranshabi/eslint-mobx#readme",
+  "devDependencies": {
+    "babel-preset-mobx": "^1.0.3",
+    "jest": "^23.1.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/**/*.spec.js"
+    ]
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.0"
+  }
+}
